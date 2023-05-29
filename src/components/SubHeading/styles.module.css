@@ -1,0 +1,8 @@
+.app__subheading{
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .app__subheading{
+        margin-bottom: 1rem;
+    }
+}

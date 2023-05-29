@@ -1,0 +1,20 @@
+.app__footer_input{
+    margin: 1.5rem 1rem 0 0;
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    border: 1px solid var(--color-white);
+    background-color: transparent;
+    color: var(--color-white);
+}
+.app__footer_newsletter{
+    text-align: center;
+    background: #1a1717;
+}
+.app__footer_newsletter{
+    padding: 3rem;
+}
+@media screen and (max-width: 960px){
+    .app__footer_input{
+        margin: 1.5rem 0 0 0;
+    }
+}

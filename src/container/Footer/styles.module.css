@@ -1,0 +1,76 @@
+.app__footer_foot{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.app__footer_flexcenter{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+}
+.app__footer_tit{
+    font-family: var(--font-base);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-golden);
+    margin-bottom: 2rem;
+}
+.app__footer_phone{
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+}
+.app__footer_phonenumber, .app__footer_address{
+    font-size: 16px;
+    font-family: var(--font-alt);
+    color: var(--color-gray) !important;
+}
+.app__footer_hours{
+    padding: 0 0 1.2rem 0;
+    color: var(--color-gray) !important;
+}
+.app__footer_social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.app__footer_logogericht{
+    width: 70%;
+}
+.app__footer_way{
+    padding: 2rem 0 1.5rem 0;
+    text-align: center;
+}
+.app__footer_socialicons{
+    font-size: 2rem;
+    color: var(--color-white);
+    padding: 0 0.5rem;
+}
+.app__footer_copyright{
+    text-align: center;
+    margin: 2rem 0;
+}
+.app__footer_copyrighttext{
+    color: var(--color-gray);
+}
+@media screen and (max-width: 768px){
+    .app__footer_foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .app__footer_flexcenter{
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .app__footer_tit{
+        margin-bottom: 1rem;
+    }
+    .app__footer_logogericht{
+        width: 50%;
+    }
+}

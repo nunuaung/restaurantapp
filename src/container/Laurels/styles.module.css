@@ -1,0 +1,46 @@
+.app__laurels{
+    position: relative;
+    background: url(../../assets/bg.png) no-repeat top center;
+}
+.app__lurels_awards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2.5rem 0 2rem 0;
+    flex-wrap: wrap;
+}
+.app__laurelslogo{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 100px;
+}
+.app__lurels_awardscard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 320px;
+    margin-bottom: 2.5rem;
+}
+.app__lurels_content{
+    flex: 1;
+}
+.app__lurels_awardscardimge{
+    max-width: 80px;
+    width: 100%;
+    margin-right: 1rem;
+}
+@media screen and (max-width: 960px){
+    .app__laurelslogo{
+        right: 40px;
+        left: inherit;
+        max-width: 100px;
+        width: 13%;
+    }
+    .app__lurels_awardscard{
+        margin-bottom: 1.5rem;
+    }
+    .app__lurels_awardscardimge{
+        width: 20%;
+    }
+}

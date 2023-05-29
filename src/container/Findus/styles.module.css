@@ -1,0 +1,25 @@
+.app__address{
+    margin: 2.5rem 0;
+    color: var(--color-gray);
+}
+.app__openinghours{
+    font-family: var(--font-base);
+    font-size: 2rem;
+    color: var(--color-golden);
+    margin-bottom: 1.5rem;
+}
+.app__openinghours_hours{
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px){
+    .app__findus{
+        align-items: flex-start;
+    }
+    .app__address{
+        margin: 1rem 0;
+    }
+    .app__openinghours{
+        font-size: 1.5rem;
+    }
+}

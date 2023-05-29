@@ -1,0 +1,30 @@
+.app__specialmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.app_specialmenu_menu{
+    align-items: flex-start !important;
+}
+.app__specialmenu_itemheader{
+    font-family: var(--font-base);
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+    color: var(--color-white);
+}
+.app__specialmenu_imagewrap{
+    max-width: 290px;
+    margin: 0 2rem;
+}
+.app__specialmenu_image{
+    width: 100%;
+}
+@media screen and (max-width: 960px){
+    .app__specialmenu_imagewrap{
+        width: 70%;
+        margin: 2rem;
+    }
+}

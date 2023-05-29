@@ -1,0 +1,33 @@
+.app__menuitem{
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.app__menuitemgp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.app__menuitem_title{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    color: var(--color-golden) !important;
+    text-align: left;
+}
+.app__menuitem_price{
+    color: var(--color-white);
+}
+.app__menuitem_dash{
+    width: 100px;
+    height: 1px;
+    margin: 0 20px;
+    background: var(--color-golden);
+}
+.app__menuitem_tagwrap{
+    text-align: left;
+}
+.app__menuitem_tags{
+    font-size: 12px;
+    color: var(--color-gray) !important;
+}

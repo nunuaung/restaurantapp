@@ -1,0 +1,21 @@
+.app__header{
+    margin-top: 6rem;
+    padding-bottom: 7rem;
+}
+.app__header_title{
+    margin-bottom: 1.5rem;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.app__header_content{
+    color: var(--color-grey);
+}
+
+@media screen and (max-width: 960px){
+    .app__header_title{
+        font-size: 4rem;
+    }
+}
